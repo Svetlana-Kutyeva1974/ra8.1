@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-width: 400px;
+  max-width: 900px;
+  margin: 40px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-name, .form-timezone {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  max-width: 160px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.btn-add {
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.clock-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: auto;
+ 
+}
+
+.clock {
+  width: 100px;
+  border: solid 1px;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.btn-del {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: -15px;
+  top: -15px;
+  border-radius: 50%;
+  border: 1px solid black;
+  transition: .2s;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.banner{
+  margin-top: 20px;
+}
+.title{
+  color: blue;
+}
+a{
+  text-decoration: none;
+}
+
+.container2{
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  border: 0.5px solid rgb(189, 183, 183);
+  width: 200px;
+  height: 40px;
+
+}
